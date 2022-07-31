@@ -1,5 +1,5 @@
 #app.wsgi
 import sys
-sys.path.insert(0, '/var/www/html/placement_chatbot')
+sys.path.insert(0, '/var/www/html/app')
 
-from placement_chatbot import app as application
+from app import app as application
