@@ -1,0 +1,150 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, please ask a question", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+
+        {"tag": "bestteam",
+         "patterns": ["Hey, which is the best team in Insti?", 
+         "Best team in insti?", "Is placement team better than saarang teams?", "placement team vs proshows?"],
+         "responses": ["Placement Team is the best team in the institute, even a bot like me can tell.",
+        "Placement Team is the best in Insti", "Placement Tea >>> Other Teams"],
+         "context": [""]
+        },
+
+        {"tag": "resumetemplate",
+         "patterns": ["Which template should I use for resumes?", "Can I use my own template for resumes?", 
+         "Can I use customized formats for resumes?", "Can I change the color and format of resumes?"],
+         "responses": ["You can use any template of your choice. However, in my personal opinion, the templates shared by the Team are better."],
+         "context": [""]
+        },
+
+        {"tag": "masterandF",
+         "patterns": ["What is master resume?", "What are F resumes?", "What are fixed resumes?",
+        "What is the difference between master and F resumes?", "Master vs fixed resume?", 
+        "How many fixed resumes can I add?"],
+         "responses": ["Master resume must contain all proofs. F (fixed) resumes must not have proofs. Master resume is used for verification of proofs, while F resumes are sent to the companies. You can have upto 5 F resumes."],
+         "context": [""]
+        },
+
+        {"tag": "timeline",
+         "patterns": ["What is internship timeline?", "Timeline for internships?", "When will day 1.1 happen?", 
+        "When is day 1 for interns?", "When is 1.2?", "When is day 2?", "Will companies come after day 1?", "Will good companies come after phase 1?"],
+         "responses": ["Day 1.1 - 6th August. Day 1.2 - 13th August. Day 2 is scheduled in late August. After that, a rolling process happens and companies can come anytime they wish. (Don't worry, good companies also come after Day 1.)"],
+         "context": [""]
+        },
+
+        {"tag": "cgpa",
+         "patterns": ["Can I edit my cgpa", 
+        "Which cgpa should I put?", "Can I round my cgpa to 8?", "Can I edit my cgpa again?"],
+         "responses": ["CGPA (including backlogs) should be mentioned in every resume. \nDo not round off the CGPA. \nCGPA as of July 5th should be used."],
+         "context": [""]
+        },
+
+        {"tag": "12grade",
+         "patterns": ["What percentage should I put for 12?", "Should I put 11 or 12 marks?", "Can I put 11 marks also?"],
+         "responses": ["A scanned copy of the 12th and 10th standard grade sheets should be attached as proof in the master resume. \nOnly 12 marks/percentage should be used"],
+         "context": [""]
+        },
+
+        {"tag": "minors",
+         "patterns": ["WHat proof should I put for minor?", "proof for minor degree?", "I have registered for 2 courses in minor, what to put as proof?"],
+         "responses": ["For completed minor: 4 courses should be completed or registered till this sem. For ongoing minor: 2 courses should be completed for B.Tech (3 for Dual) and undertaking for 3rd (or 4th) should be put. The four courses need to be mentioned explicitly on the master resume (optional on other resumes), along with the semesters in which the courses were/ will be taken. The student’s grade card or the Consent of the Tutor (CoT) from the professor taking the course will be accepted as proof for the institute’s approved minor list. For courses not on the list or for an NPTEL course, an email from the department HoD (of the department offering the minor) approving the same is necessary."],
+         "context": [""]
+        },
+
+        {"tag": "scholastic",
+         "patterns": ["What proof should I put for scholastic achievements?", 
+         "What proof should I put for GATE ranking?", "I got a rank in CAT, what proof should I put?", "Wat proof for GRE ranking?", 
+         "WHat proof for GMAT?", "I scored perfect score (800/800) in SAT, what should I put as proof?", "I won a competition, what proof should I put?",
+        "I won a scholarship, what to put on resume?"],
+         "responses": ["A scanned copy of the certificate or a screenshot or a link to the official results page is accepted as proof of scholastic achievements. For standardized tests like GATE, CAT, GRE, GMAT etc., a mail of your result from the test conducting agency, a screenshot or a link to the official results page are accepted as proof. For corporate scholarships, a mail from the company would suffice. For competitions, the link to the leaderboard would suffice."],
+         "context": [""]
+        },
+
+
+
+        {"tag": "departmentrank",
+         "patterns": ["Can I put my department rank in resume?", "I scored 10 cgpa in 6th semester, can I put this?", 
+         "Can I put my branch rank on F resumes?"],
+         "responses": ["Students are not allowed to mention their department/branch ranks on their resumes because we will not be able to verify the claim from the academic section. However, the students are free to mention their academic awards, GPA of a particular semester, year or course."],
+         "context": [""]
+        },
+
+        {"tag": "coursework",
+         "patterns": ["What proof should I add for coursework?", "For online courses, what proof?", "What proof for online courses?",
+        "What proof for coursera course?", "What proof for nptel?"],
+         "responses": ["Courses mentioned in the resume should be present in the official Institute grade sheet. \nScanned copies or e-certificates for online courses will do. Ongoing courses should be marked with *, screenshot or progress proof should be attached."],
+         "context": [""]
+        },
+
+        {"tag": "professional_experience_completed",
+         "patterns": ["What proof should I put for interns?", "Will offer letter do for intern proof?", "research intern proof?"],
+         "responses": ["For completed internship:\n(1)completion certificate \n(2)Offer Letter + Acknowledgement mail of completion \n(3)Offer Letter + Stipend Details. \nFor research internships:\n Mail with details from professor or university head should do."],
+         "context": [""]
+        },
+
+        {"tag": "professional_experience_ongoing",
+         "patterns": ["What proof for ongoing internship?", "Is offer letter enough for ongoing internship?", "What proof for ongoing research internship?"],
+         "responses": ["For ongoing internship: Offer Leter + Acknowledgement mail from company stating that the internship is ongoing. For research internship: Mail from the professor regarding the details and statement that it is ongoing. "],
+         "context": [""]
+        },
+
+        {"tag": "PORs",
+         "patterns": ["What proof for PORs?", "Proof for position of responsibility?", "Shaastra Proof?", "Saarang proof?", "Waht proof for volunteering?"],
+         "responses": ["PORs under secretaries don't need proof. We have it in our database. For others, a mail of acknowledgement from the club heads or hostel secretaries will do. No proof is required for volunteering in Insti but certificate/mail is required for those outside Insti."],
+         "context": [""]
+        },
+
+        {"tag": "research_paper",
+         "patterns": ["What proof should I put for research paper?", "What proof for patents?"],
+         "responses": ["Patent/paper number or acceptance mail or link (DOI number) is accepted as proof. The Journal/Conference paper, acceptance mail or paper number or link (DOI number) is accepted as proof."],
+         "context": [""]
+        },
+
+        {
+        "tag": "projects",
+        "patterns": [
+          "What proof should I put for course projects",
+          "Proof for personal projects",
+          "course project and personal project proofs",
+          "club project proof",
+          "Hey, what are the proofs for course project?"
+        ],
+        "responses": [
+          "For course projects, the course name/course number should be mentioned in the master resume. \nFor projects with a professor, an email from the professor with the projectâ€™s title is sufficient. \nFor personal projects, a link to the report or code should be present. \nFor projects done during their internship/work, only proof of internship/work is enough. \nFor a project in a club, an acknowledgement mail from the clubhead is required "
+        ]
+        },
+
+        {"tag": "entrepreneurial_activities",
+         "patterns": ["What proof for startups?", "I founded a startup, what proof should I put?", "WHat proof for founding member of an NGO?"],
+         "responses": ["If you claim to be a founder/co-founder of a startup/NGO, following proofs should be produced: (1) Acknowledgement of the startup’s existence as well as your claimed position in the company by the incubating organisation/funding organisation. (2) If the startup is a registered entity, any document proving that is considered proof of the startup’s existence. (3) If a startup is not a registered entity, it is mandatory to mention the same in the master and the fixed resumes."],
+         "context": [""]
+        },
+
+        {"tag": "extracurricular",
+         "patterns": ["What proof should I put for extracurricular activiites?", "Proof for co-curricular work?", "Proof for litsoc activities?", "What proof for techsoc competition?",
+        "I participated and won in Schroeter, what proof should I attach?", "Proof for extra curricular events?"],
+         "responses": ["Participating/winning in Litsoc/Techsoc/Schroeter, an acknowledgement mail from the respective hostel secretary is required. For participating/winning in any event, a mail/certificate from the organiser is required."],
+         "context": [""]
+        },
+
+        {"tag": "skills_hobbies",
+         "patterns": ["Do I have to put proofs for skills and hobbies?", "Proof for my hobbies? or skills?"],
+         "responses": ["No proof is required for the skills or hobbies mentioned."],
+         "context": [""]
+        }
+
+   ]
+}
