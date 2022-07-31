@@ -4,11 +4,13 @@
          "responses": ["Hello, please ask a question", "Good to see you again", "Hi there, how can I help?"],
          "context": [""]
         },
+
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
          "responses": ["See you!", "Have a nice day", "Bye! Come back again"],
          "context": [""]
         },
+        
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"],
@@ -19,7 +21,7 @@
          "patterns": ["Hey, which is the best team in Insti?", 
          "Best team in insti?", "Is placement team better than saarang teams?", "placement team vs proshows?"],
          "responses": ["Placement Team is the best team in the institute, even a bot like me can tell.",
-        "Placement Team is the best in Insti", "Placement Tea >>> Other Teams"],
+        "Placement Team is the best in Insti", "Placement Team >>> Other Teams"],
          "context": [""]
         },
 
@@ -72,8 +74,6 @@
          "responses": ["A scanned copy of the certificate or a screenshot or a link to the official results page is accepted as proof of scholastic achievements. For standardized tests like GATE, CAT, GRE, GMAT etc., a mail of your result from the test conducting agency, a screenshot or a link to the official results page are accepted as proof. For corporate scholarships, a mail from the company would suffice. For competitions, the link to the leaderboard would suffice."],
          "context": [""]
         },
-
-
 
         {"tag": "departmentrank",
          "patterns": ["Can I put my department rank in resume?", "I scored 10 cgpa in 6th semester, can I put this?", 
