@@ -10,6 +10,18 @@
          "responses": ["See you!", "Have a nice day", "Bye! Come back again"],
          "context": [""]
         },
+
+        {"tag": "chatbot",
+         "patterns": ["Who are you?", "what is this?", "How can you help me?", "whats your use?", "What is this chatbot"],
+         "responses": ["Hey, I'm a chatbot developed by the Placement & Intern Team to assist you with queries."],
+         "context": [""]
+        },
+
+        {"tag": "developers",
+         "patterns": ["Who made you?", "Who are your developers?", "Who is your creator?", "What made you?"],
+         "responses": ["I was made by the the Placement & Internship Team?"],
+         "context": [""]
+        },
         
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
@@ -42,14 +54,14 @@
 
         {"tag": "timeline",
          "patterns": ["What is placement timeline?", "Timeline for placements?", "When will day 1 happen?"," When is the last date for submitting my resume?","When will my resume be verified?", "When is day 1 for those who got placed?", "When is 1.2?", "When is day 2?", "Will companies come after day 1?", "Will good companies come after phase 1?"],
-         "responses": ["Student registration 13-16th August. Day 2 is scheduled in late August. After that, a rolling process happens and companies can come anytime they wish. (Don't worry, good companies also come after Day 1.)"],
+         "responses": ["Student registration: 13-16th August. Resume submission: 17-22nd August. Resume verification: 23-29th August. Resume Deadlines: 30th August onwards. PPTs: 17th August onwards. Deadline for Closed PPOs: 12th September. Test Start Date: 13th September onwards. Interview Start Date: 1st December onwards. "],
          "context": [""]
         },
 
         {"tag": "cgpa",
          "patterns": ["Can I edit my cgpa", 
         "Which cgpa should I put?", "Can I round my cgpa to 8?", "Can I edit my cgpa again?"],
-         "responses": ["CGPA (including backlogs) should be mentioned in every resume. \nDo not round off the CGPA. \nCGPA as of August 22nd should be used."],
+         "responses": ["CGPA (including backlogs) should be mentioned in every resume. \nDo not round off the CGPA. \nCGPA as of end of resume deadline should be used."],
          "context": [""]
         },
 
@@ -146,12 +158,12 @@
         },
 
         {"tag":"when_get_placed",
-         "patterns":["When will I get placed?","Will I ever get a placement?"],
-         "responses":["Yes, you will definitely get placed"],
+         "patterns":["When will I get placed?","Will I ever get a placement?", "Will I ever any placements?"],
+         "responses":["Yes, you will definitely get placed. That's why we are here."],
          "context":[""]
         },
 
-	{"tag":"no_idea_about_the_process",
+	      {"tag":"no_idea_about_the_process",
          "patterns":["Will anyone guide me through the placement process?","I am confused about the placement process, will anyone help me?", "How does the placement team help us", "How will placement team help me?"],
          "responses":["Each student will be mapped to a Placement Coordinator (PC). He/She is your first point of contact in the team and would help you throughout the entire process. Please be very open with your PC and Core regarding your aspirations, expectations from placements and any issues faced. "],
          "context":[""]
@@ -205,7 +217,7 @@
         {"tag":"dress_code",
          "patterns":["What dress code should I follow ?", "What should I wear for the placements?", "Can I wear t-shirts for placements?", 
          "Can I wear chappals?"],
-         "responses":[" for ppt & Written Test -> 1.shirt/t-shirt with collar, 2.Formal or casual trousers (full pant),3.Hair combed 4.Polished Sandals/Shoes,5.Flip Flops/Sandals;  Shorts, Sleeveless and see-through clothes will not be allowed. For placement interviews -> 1. Full Sleeve Shirt(tucked in) 2.Formal trousers (full pant),3.Hair combed 4.Polished  Shoes,5.Flip Flops/Sandals; Shorts, Sleeveless and see-through clothes will not be allowed."],
+         "responses":[" For PPTs & Written Tests -> 1. Shirt/T-Shirt with collar, 2.Formal or casual trousers (full pant), 3.Hair combed, 4.Polished Sandals/Shoes, 5.Flip Flops/Sandals (Shorts, Sleeveless and see-through clothes will not be allowed). For Placement Interviews -> 1. Full Sleeve Shirt(tucked in) 2.Formal trousers(full pant), 3.Hair combed, 4.Polished Shoes (Flip Flops/Sandals; Shorts, Sleeveless and see-through clothes will not be allowed)."],
 
          "context":[""]
         },
@@ -219,17 +231,20 @@
 
         {"tag":"ppo",
          "patterns":["What are open ppo's?", "What are closed ppo's?", "How much Time I have for receiving ppo's?","What is the deadline for open ppo's?","What is the deadline for closed ppo's?","Which all companies can offer me a ppo?"],
-         "responses":["The PPOs offered to the students can be of two types .Closed PPO's are those PPO's that needs to be accepted/rejected in 72 hours. Post acceptance, the student will not be allowed to sit for the placement process. A closed PPO has to be issued on or before September 12. Open PPO's are those PPO's that need not be accepted/rejected until the slot in which the company which has offered PPO visits the campus or will have visited the campus. Open PPO's can be issued by any company whereas closed ppo's can only be issued by companies who were part of the institutes internship process. Students who have an open PPO will be allowed to register for placements.  It can be issued anytime on or before November 30 . "],
+         "responses":["The PPOs offered to the students can be of two types. Closed PPO's are those PPO's that needs to be accepted/rejected in 72 hours. Post acceptance, the student will not be allowed to sit for the placement process. A closed PPO has to be issued on or before September 12. Open PPO's are those PPO's that need not be accepted/rejected until the slot in which the company which has offered PPO visits the campus or will have visited the campus. Open PPO's can be issued by any company whereas closed ppo's can only be issued by companies who were part of the institutes internship process. Students who have an open PPO will be allowed to register for placements.  It can be issued anytime on or before November 30 . "],
 
          "context":[""]
+        },
+
+        {"tag": "backlogs",
+         "patterns": ["How many backlogs is an issue", "Are 3 backlogs okay?", "I have 3 I grades, can I sit for placements?", "I have many U grades, can I sit for placements?",
+        "Can I sit for placements if I have 4 or more backlogs?", "I have many I grades due to Covid, can I still register?",
+        "What about blank grades?", "what about blank grades due to exam not conducted?", "What about labs that were mandatory but grades are not released yet?",
+        "What about the exams i have given recently and didn't receive a grade for that course", "mech people have atleast 2 backs according  to this rule and many will have 3+ because they were not able to give exams and some grades are still pending",
+        "What about professional ethics (HS3040) for which I didn't pass, is that a backlog?"],
+         "responses": ["Backlog is defined as any U/W/I or blank grade in a core course upto Jul-Nov 2021. If you have less than or equal to 3 backlogs, you can register. If you have more than 3 (unless department wide issue), you'll have to get mail from the concerned professor stating that you will complete the course before graduation."],
+         "context": [""]
         }
-
-
-
-
-
-
-
 
    ]
 }
