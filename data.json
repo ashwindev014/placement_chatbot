@@ -172,7 +172,7 @@
         {"tag":"type_of_companies",
          "patterns":["What kind of companies come for the placements?", "How can I ensure that the companies that I have in mind comes for the placements?", "Can students suggest  companies to the placement team?"],
        
-         "responses":["We make a sincere effort every year to bring in new companies in upcoming R&D areas to ensure better and more diverse opportunities for students. It is here that your suggestions would be very useful. If you have a company that you want to see on campus, please let us know. We will try our best to make it happen."],
+         "responses":["A plethora of companies come for placements every season. We make a sincere effort every year to bring in new companies in upcoming R&D areas to ensure better and more diverse opportunities for students. It is here that your suggestions would be very useful. If you have a company that you want to see on campus, please let us know. We will try our best to make it happen."],
          "context":[""]
         },
 
@@ -185,7 +185,7 @@
         {"tag":"ppt",
          "patterns":["What is ppt?", "I don't have any clue about ppt's can you help me out?", "Is attending a ppt mandatory?", 
         "Why should I attend the ppt?", "what is preplacement talk?"],
-         "responses":["Companies that register on the Placement Portal can conduct a Pre Placement Talk to pitch the company  and provide clarity regarding  the placement and their profile.  Attendance for those talks is not compulsory. However, the Placement Cell recommends that students attend the talks of the companies they are interested in applying to. If online the platform details will be provided and if offline the venue details will be provided. "],
+         "responses":["Companies that register on the Placement Portal can conduct a Pre Placement Talk (PPT) to pitch the company  and provide clarity regarding  the placement and their profile.  Attendance for those talks is not compulsory. However, the Placement Cell recommends that students attend the talks of the companies they are interested in applying to. If online the platform details will be provided and if offline the venue details will be provided. "],
          "context":[""]
         },
 
@@ -195,15 +195,18 @@
          "context":[""]
         },
 
-        {"tag":"test",
-         "patterns":["How will the test be conducted?", "Will it the tests be online?", "Which OS is recommended for taking the tests?", "When will the tests start?", "Will tests be montiored?"],
+        {"tag":"test_modes",
+         "patterns":["How will the test be conducted?", "Will it the tests be online?", "Which OS is recommended for taking the tests?", "When will the tests start?", "Will tests be montiored?", "Will tests be online or offline?", "Are tests online for coding companies?", "Are tests offline?",
+        "Will tests be hybrid?"],
          "responses":["The tests will tentatively start from 13th September. Tests will be in hybrid mode. The OS depends on the company (mainly Windows and Ubuntu). You need to be prepared  with any prior setup required for the test. Most tests will be monitored and malpractices during the test would invite disciplinary action."],
          "context":[""]
         },
 
         {"tag":"attendance_policy",
-         "patterns":["Is attendance mandatory for tests?", "Can I not take tests after registering?", "Can I skip tests because I am ill?",  "What are the consequences if skip a test?","What if I miss a test?", "What if I miss my test?", "can I attend other tests?", "I can't make it to a test, is there any penalty?", "Is there any penalty for missing tests?", "Are there any blacklists for missing tests", "Are there penalties for not attending tests?"],
-         "responses":[" The attendance policy for tests will strictly be followed and it is mandatory for all students to take part in the test; if they are shortlisted/eligible for the  test. Students citing medical and other reasons might be exempted. Skipping tests without valid reasons can lead to disciplinary actions "],
+         "patterns":["Is attendance mandatory for tests?", "Can I not take tests after registering?", "Can I skip tests because I am ill?",  "What are the consequences if skip a test?","What if I miss a test?", "What if I miss my test?", "can I attend other tests?", "I can't make it to a test, is there any penalty?", 
+         "Is there any penalty for missing tests?", "Are there any blacklists for missing tests", "Are there penalties for not attending tests?", "Is attendance compulsory for GDs?", "Attendance for gds>",
+         "Can I skip gds?", "Can I skip tests?", "Are group discussions mandatory?"],
+         "responses":[" Tests and GDs Attendance Policy - will strictly be followed and it is mandatory for all students to take part in the test; if they are shortlisted/eligible for the  test. Students citing medical and other reasons might be exempted. Skipping tests/GDs without valid reasons can lead to disciplinary actions "],
          "context":[""]
         },
 
@@ -223,15 +226,17 @@
         },
 
         {"tag":"guidlines_for_tests",
-         "patterns":["How will the tests be conducted?", "?", "Who will inform me regarding the instructions for tests?", "Will my POC help me?" ,"How will my POC assist me for my tests?"],
-         "responses":["Guidelnes for Tests: If online the platform details will be provided and if offline the venue details will be provided. Student POC will inform the candidates regarding the links for candidates, helpline numbers that companies might share They will also provide instructions for addtitional configuration of the test platform required from candidate's  side "],
+         "patterns":["How will the tests be conducted?", "?", "Who will inform me regarding the instructions for tests?", "Will my POC help me?" ,"How will my POC assist me for my tests?", "Mode of tests?", "Platforms for test?", "What are the mode of conducting tests?"],
+         "responses":["Guidelines for Tests: If online the platform details will be provided and if offline the venue details will be provided. Student POC will inform the candidates regarding the links for candidates, helpline numbers that companies might share They will also provide instructions for addtitional configuration of the test platform required from candidate's  side "],
 
          "context":[""]
         },
 
         {"tag":"ppo",
-         "patterns":["What are open ppo's?", "What are closed ppo's?", "How much Time I have for receiving ppo's?","What is the deadline for open ppo's?","What is the deadline for closed ppo's?","Which all companies can offer me a ppo?"],
-         "responses":["The PPOs offered to the students can be of two types. Closed PPO's are those PPO's that needs to be accepted/rejected in 72 hours. Post acceptance, the student will not be allowed to sit for the placement process. A closed PPO has to be issued on or before September 12. Open PPO's are those PPO's that need not be accepted/rejected until the slot in which the company which has offered PPO visits the campus or will have visited the campus. Open PPO's can be issued by any company whereas closed ppo's can only be issued by companies who were part of the institutes internship process. Students who have an open PPO will be allowed to register for placements.  It can be issued anytime on or before November 30 . "],
+         "patterns":["What are open ppo's?", "What are closed ppo's?", "How much Time I have for receiving ppo's?","What is the deadline for open ppo's?","What is the deadline for closed ppo's?",
+         "Which all companies can offer me a ppo?", "Whats the difference between open and closed PPOs?", "Open vs closed ppos?",
+        "When can I accept my closed ppo?", "When should I accept my ppo?", "ppo acceptance date?", "Last date for accepting PPOs?", "What is pre placement offer?", "Preplacement offer?"],
+         "responses":["The Pre Placement Offers (PPOs) offered to the students can be of two types. Closed PPO's are those PPO's that needs to be accepted/rejected in 72 hours. Post acceptance, the student will not be allowed to sit for the placement process. A closed PPO has to be issued on or before September 12. Open PPO's are those PPO's that need not be accepted/rejected until the slot in which the company which has offered PPO visits the campus or will have visited the campus. Open PPO's can be issued by any company whereas closed ppo's can only be issued by companies who were part of the institutes internship process. Students who have an open PPO will be allowed to register for placements. It can be issued anytime on or before November 30 . "],
 
          "context":[""]
         },
@@ -241,8 +246,8 @@
         "Can I sit for placements if I have 4 or more backlogs?", "I have many I grades due to Covid, can I still register?",
         "What about blank grades?", "what about blank grades due to exam not conducted?", "What about labs that were mandatory but grades are not released yet?",
         "What about the exams i have given recently and didn't receive a grade for that course", "mech people have atleast 2 backs according  to this rule and many will have 3+ because they were not able to give exams and some grades are still pending",
-        "What about professional ethics (HS3040) for which I didn't pass, is that a backlog?"],
-         "responses": ["Backlog is defined as any U/W/I or blank grade in a core course upto Jul-Nov 2021. If you have less than or equal to 3 backlogs, you can register. If you have more than 3 (unless department wide issue), you'll have to get mail from the concerned professor stating that you will complete the course before graduation."],
+        "What about professional ethics (HS3050) for which I didn't pass, is that a backlog?"],
+         "responses": ["A backlog is defined as any U/W/I or blank grade in a core course upto Jul-Nov 2021. If you have less than or equal to 3 backlogs, you can register. If you have more than 3 (unless department wide issue), you'll have to get mail from the concerned professor stating that you will complete the course before graduation. (Also note that this is not send to the companies."],
          "context": [""]
         }
 
