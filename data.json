@@ -18,8 +18,8 @@
         },
 
         {"tag": "developers",
-         "patterns": ["Who made you?", "Who are your developers?", "Who is your creator?", "What made you?"],
-         "responses": ["I was made by the the Placement & Internship Team?"],
+         "patterns": ["Who made you?", "Who are your developers?", "Who is your creator?", "What made you?", "Who's your dad?", "Who is your daddy?"],
+         "responses": ["I was made by the the Placement & Internship Team"],
          "context": [""]
         },
         
