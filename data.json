@@ -183,12 +183,6 @@
          "context":[""]
         },
 
-        {"tag":"placement_prep",
-         "patterns":["how should I prepare for placements?", "Where will I find the resources for placement preperation?", "I am confused about what to prepare for the placements. Can you help?"],
-         "responses":["This Google drive is a one-stop destination for anything and everything you will need for placement preparation, at least from our side. We have collected and compiled a good amount of material for core and non-core preparation over the years. This includes reference books, sample questions and mock test papers. This material can be found on the drive, which has been shared with you already. Contact your Placement Team/ check smail for further details"],
-         "context":[""]
-        },
-
         {"tag":"ppt",
          "patterns":["What is ppt?", "I don't have any clue about ppt's can you help me out?", "Is attending a ppt mandatory?", 
         "Why should I attend the ppt?", "what is preplacement talk?"],
@@ -235,13 +229,6 @@
          "patterns":["What dress code should I follow ?", "What should I wear for the placements?", "Can I wear t-shirts for placements?", 
          "Can I wear chappals?"],
          "responses":[" For PPTs & Written Tests -> 1. Shirt/T-Shirt with collar, 2.Formal or casual trousers (full pant), 3.Hair combed, 4.Polished Sandals/Shoes, 5.Flip Flops/Sandals (Shorts, Sleeveless and see-through clothes will not be allowed). For Placement Interviews -> 1. Full Sleeve Shirt(tucked in) 2.Formal trousers(full pant), 3.Hair combed, 4.Polished Shoes (Flip Flops/Sandals; Shorts, Sleeveless and see-through clothes will not be allowed)."],
-
-         "context":[""]
-        },
-
-        {"tag":"guidlines_for_tests",
-         "patterns":["How will the tests be conducted?", "Who will inform me regarding the instructions for tests?", "Will my POC help me?" ,"How will my POC assist me for my tests?", "Mode of tests?", "Platforms for test?", "What are the mode of conducting tests?"],
-         "responses":["Guidelines for Tests: If online the platform details will be provided and if offline the venue details will be provided. Student POC will inform the candidates regarding the links for candidates, helpline numbers that companies might share They will also provide instructions for addtitional configuration of the test platform required from candidate's  side "],
 
          "context":[""]
         },
