@@ -52,6 +52,13 @@
          "context": [""]
         },
 
+        {"tag": "resume_submission",
+         "patterns": ["When can I submit my resumes?", "When can I submit my F resumes?", "How many resumes can I submit?", "Can I submit resumes after August 30th?", "Can I submit resumes after August?", "Wehn is resume submission deadline?",
+        "Can I submit more resumes later?", "Can I submit reumes after august?", "Can I later edit my resumes?", "Can I submit my resumes later?"],
+         "responses": ["You can upload upto 5 F resumes. The resume submission is from 17th to 22nd August. You can also submit resumes after 30th August, if you have free slots left."],
+         "context": [""]
+        },
+
         {"tag": "timeline",
          "patterns": ["What is placement timeline?", "Timeline for placements?", "When will day 1 happen?"," When is the last date for submitting my resume?","When will my resume be verified?", "When is day 1 for those who got placed?", "When is 1.2?", "When is day 2?", "Will companies come after day 1?", "Will good companies come after phase 1?"],
          "responses": ["Student registration: 13-16th August. Resume submission: 17-22nd August. Resume verification: 23-29th August. Resume Deadlines: 30th August onwards. PPTs: 17th August onwards. Deadline for Closed PPOs: 12th September. Test Start Date: 13th September onwards. Interview Start Date: 1st December onwards. "],
@@ -61,7 +68,7 @@
         {"tag": "cgpa",
          "patterns": ["Can I edit my cgpa", 
         "Which cgpa should I put?", "Can I round my cgpa to 8?", "Can I edit my cgpa again?"],
-         "responses": ["CGPA (including backlogs) should be mentioned in every resume. \nDo not round off the CGPA. \nCGPA as of end of resume deadline should be used."],
+         "responses": ["CGPA (including backlogs) should be mentioned in every resume. \nDo not round off the CGPA. \nCGPA as of end of resume submission deadline should be used."],
          "context": [""]
         },
 
@@ -193,6 +200,13 @@
          "patterns":["How much is the registration fee?", " How much should I pay as registration fees", "How will my registration fees be utilised?","Is it mandatory to pay the registration fees?", "How does the placement team spend my registration money?" ],
          "responses":[" The fee is Rs. 1350 for PhD students and Rs. 2700 for others (incl of GST). The amount is used for coordinating the logistics of the entire placement process."],
          "context":[""]
+        },
+
+        {"tag": "online_offline",
+         "patterns": ["Is the placement online or offline?", "Hey, is placement offline?", "Are tests online or offline?", "placement online vs offline?",
+        "Online vs offline placements?", "Are interviews online or offline?", "Will tests be offline?", "Will interviews be offline?", "Are interviews offline?"],
+         "responses": ["The placement will happen in hybrid mode. Some tests will be online and some will be offline. This apply for GDs as well. The interviews will be conducted in hybrid mode (as of now)."],
+         "context": [""]
         },
 
         {"tag":"test_modes",
