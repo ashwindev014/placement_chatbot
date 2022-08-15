@@ -240,7 +240,7 @@
         },
 
         {"tag":"guidlines_for_tests",
-         "patterns":["How will the tests be conducted?", "?", "Who will inform me regarding the instructions for tests?", "Will my POC help me?" ,"How will my POC assist me for my tests?", "Mode of tests?", "Platforms for test?", "What are the mode of conducting tests?"],
+         "patterns":["How will the tests be conducted?", "Who will inform me regarding the instructions for tests?", "Will my POC help me?" ,"How will my POC assist me for my tests?", "Mode of tests?", "Platforms for test?", "What are the mode of conducting tests?"],
          "responses":["Guidelines for Tests: If online the platform details will be provided and if offline the venue details will be provided. Student POC will inform the candidates regarding the links for candidates, helpline numbers that companies might share They will also provide instructions for addtitional configuration of the test platform required from candidate's  side "],
 
          "context":[""]
